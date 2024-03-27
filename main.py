@@ -6,7 +6,7 @@ from sql import prepare_database, add_user, update_row_value, delete_user, user_
 from gpt import ask_gpt
 from telebot.types import KeyboardButton, ReplyKeyboardMarkup
 
-TOKEN = "6907816424:AAFtptMbHmk8FH4w39qBW7Zy1533IKPiPEM"
+TOKEN = "ToKeN"
 bot = telebot.TeleBot(TOKEN)
 db_file = 'sqliteData.db'
 
@@ -35,7 +35,7 @@ MAX_TOKENS_IN_SESSION = 500  # макс. количество токенов з�
 tokens = 0
 
 AIM_token = 't1.9euelZrOmZnNxpuKyIrIjJbIiYrMx-3rnpWakMyPl8-Xic6RxpyKnZmXjc3l8_dXcn9P-e8-SGYH_t3z9xchfU_57z5IZgf-zef1656Vms7HjIrOk5zHyZmSmJmQmsrM7_zF656Vms7HjIrOk5zHyZmSmJmQmsrMveuelZqSnseRjY6Tz56YxpyXyZOdkbXehpzRnJCSj4qLmtGLmdKckJKPioua0pKai56bnoue0oye.y_DzD7uzBGcKTSu36EuWLbCAeu1NeZ68XLt068OVn9_tH3vPsUUr54yERLTt8aVl8vHM2eh1fNsXNPwKfES0DA'
-folder_id = 'b1gvnnljiqfne8s69smp'
+folder_id = ''
 GPT_MODEL = 'yandexgpt-lite'
 
 CONTINUE_STORY = 'Продолжи сюжет в 1-3 предложения и оставь интригу. Не пиши никакой пояснительный текст от себя'

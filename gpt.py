@@ -11,7 +11,6 @@ MAX_TOKENS_IN_SESSION = 200  # макс. количество токенов з�
 # Выполняем запрос к YandexGPT
 def ask_gpt(user_content, system_content, assistant_content, user_id, mode='continue'):
     iam_token = AIM_token  # Токен для доступа к YandexGPT
-    folder_id = 'b1gvnnljiqfne8s69smp'  # Folder_id для доступа к YandexGPT
 
     if mode == 'continue':
         assistant_content += '\n' + CONTINUE_STORY
